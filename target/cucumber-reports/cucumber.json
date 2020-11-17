@@ -1,0 +1,190 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-17T06:09:05.357Z",
+        "before": [
+          {
+            "result": {
+              "duration": 69338385,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GetEvaluationSteps.intializePage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3369223,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyPortfolioSteps.intializePage()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can add a new ticker with valid units",
+        "description": "",
+        "id": "myportfolio-feature;user-can-add-a-new-ticker-with-valid-units",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 376393931,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the application is launched",
+            "match": {
+              "location": "MyPortfolioSteps.the_application_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244872845,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to Portfolio Value",
+            "match": {
+              "location": "GetEvaluationSteps.the_user_navigates_to_Portfolio_Value()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67296275,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify that the value is zero",
+            "match": {
+              "location": "GetEvaluationSteps.verify_that_the_value_is_zero()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247237790,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user launch view portfolio",
+            "match": {
+              "location": "MyPortfolioSteps.the_user_launch_view_portfolio()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 985921450,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user adds a ticker with units",
+            "match": {
+              "location": "MyPortfolioSteps.the_user_adds_a_ticker_with_units()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1101301007,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that the ticker is added",
+            "match": {
+              "location": "MyPortfolioSteps.verify_that_the_ticker_is_added()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 241427549,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user navigates to Portfolio Value",
+            "match": {
+              "location": "GetEvaluationSteps.the_user_navigates_to_Portfolio_Value()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 614273821,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify that the value of that day is displayed",
+            "match": {
+              "location": "GetEvaluationSteps.verify_that_the_value_of_that_day_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248011072,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user launch view portfolio",
+            "match": {
+              "location": "MyPortfolioSteps.the_user_launch_view_portfolio()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 853019939,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user delete the ticker",
+            "match": {
+              "location": "MyPortfolioSteps.the_user_delete_the_ticker()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25403039,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the ticker is not present",
+            "match": {
+              "location": "MyPortfolioSteps.the_ticker_is_not_present()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getevaluation"
+          }
+        ]
+      }
+    ],
+    "name": "MyPortfolio feature",
+    "description": "  As a user ,I can add ,delete ticker",
+    "id": "myportfolio-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featurefile/GetValuation.feature",
+    "tags": [
+      {
+        "name": "@getevaluation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

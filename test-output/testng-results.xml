@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-17T06:08:57 GMT" name="Default suite" finished-at="2020-11-17T06:09:10 GMT" duration-ms="13643">
+    <groups>
+      <group name="cucumber">
+        <method signature="FeatureFileRunner.scenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.FeatureFileRunner@37654521]" name="scenario" class="runner.FeatureFileRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-11-17T06:08:57 GMT" name="Default test" finished-at="2020-11-17T06:09:10 GMT" duration-ms="13643">
+      <class name="runner.FeatureFileRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.FeatureFileRunner@37654521]" started-at="2020-11-17T06:08:57 GMT" name="setUpClass" finished-at="2020-11-17T06:08:57 GMT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:runner.FeatureFileRunner@37654521]" started-at="2020-11-17T06:08:57 GMT" name="setUpTest" finished-at="2020-11-17T06:09:04 GMT" duration-ms="7346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="scenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.FeatureFileRunner@37654521]" started-at="2020-11-17T06:09:04 GMT" name="scenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-17T06:09:10 GMT" duration-ms="5509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can add a new ticker with valid units"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MyPortfolio feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.FeatureFileRunner@37654521]" started-at="2020-11-17T06:09:10 GMT" name="tearDownClass" finished-at="2020-11-17T06:09:10 GMT" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:runner.FeatureFileRunner@37654521]" started-at="2020-11-17T06:09:10 GMT" name="generateReport" finished-at="2020-11-17T06:09:13 GMT" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.FeatureFileRunner@37654521]" started-at="2020-11-17T06:09:13 GMT" name="tearDown" finished-at="2020-11-17T06:09:13 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runner.FeatureFileRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+{
+   "TestData":{
+      "Browser":{
+         "type":"Firefox",
+         "apiserver":"http://127.0.0.1:5000/portfolio",
+         "devserver":"http://localhost:8080/valuation"
+      },
+      "TickerAdd":{
+         "name_1":"AAPL",
+         "units_1":"1",
+         "units_more":"100",
+         "units_less":"10",
+         "name_samecase":"AAPL",
+         "units_samecase":"1",
+         "name_2":"BF-B",
+         "units_2":"100",
+         "name_3":"AAPL",
+         "units_3":"1000",
+         "name_negativecase":"AAPL",
+         "units_negativecase":"-100"
+      }
+   }
+}
