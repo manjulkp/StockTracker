@@ -15,6 +15,7 @@ $ npm run serve
 
 Note : This can be created as bash and invoked in framework 
 
-### Language used for Automation Framework is Java,TestNG,Cucumber ,Maven 
+### Language used for Automation Framework is 
+Java,TestNG,Cucumber ,Maven 
 
 
