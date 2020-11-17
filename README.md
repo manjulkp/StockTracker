@@ -28,19 +28,19 @@ Java,TestNG,Cucumber ,Maven
 * Structure scripts with minimal dependencies - Ensuring scripts executing unattended even on failures
 
 ### Salient Feature Framework  :
-1. Cucumber feature is used to create test cases 
-2. Test suite can be executed using cucumber tag ,that gives the flexibility to run the end user choice to select the test cases to be executed -This is achieved with FeatureFileRunner.class file
-3. The binding code can be used under step definitions
-4. Page object Model Design Pattern is used 
-5. Cucumber ExtentTestNg report is used for reporting 
-6. On Failure ,Method to take ScreenShot can be called(Not Implemented )
+1. Cucumber feature is used to create test cases. 
+2. Test suite can be executed using cucumber tag ,that gives the flexibility to run the end user choice to select the test cases to be executed -This is achieved with FeatureFileRunner.class file.
+3. The binding code can be used under step definitions.
+4. Page object Model Design Pattern is used .
+5. Cucumber ExtentTestNg report is used for reporting .
+6. On Failure ,Method to take ScreenShot can be called(Not Implemented ).
 
 ### Steps to Execute the test cases 
-1.Once the pre-requiste for launching the application is completed
-2.Clone the repo and launch the framework in eclipse IDE 
-3.Right click on /Stocktracker/src/test/java/runner/FeatureFileRunner.java and select run as TestNG 
-4.Once the selected cucumber tagged suite is executed ,the reports are stored under /Stocktracker/target/cucumber-html-reports 
-5.Test data is can be stored in json and that in turn is stored as key - value pair 
+1. Once the pre-requiste for launching the application is completed.
+2. Clone the repo and launch the framework in eclipse IDE .
+3. Right click on /Stocktracker/src/test/java/runner/FeatureFileRunner.java and select run as TestNG .
+4. Once the selected cucumber tagged suite is executed ,the reports are stored under /Stocktracker/target/cucumber-html-reports .
+5. Test data is can be stored in json and that in turn is stored as key - value pair .
 
 
 
