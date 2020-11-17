@@ -1,8 +1,8 @@
 @getevaluation
-Feature: MyPortfolio feature
-  As a user ,I can add ,delete ticker
+Feature: GetValuation feature
+  As a user ,I can view value of the added units
 
-  Scenario: User can add a new ticker with valid units
+  Scenario: User can view the stock value 
   Given the application is launched
   When the user navigates to Portfolio Value
   Then verify that the value is zero
