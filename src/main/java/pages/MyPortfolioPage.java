@@ -73,13 +73,6 @@ public class MyPortfolioPage {
 	}
 
 	public boolean getLabelsList() {
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
 		for (WebElement ele : items) {
 			if (ele.getText().equals("delete") == false && storeTicker.contains(ele.getText()) == false) {
 				storeTicker.add(ele.getText());
@@ -90,12 +83,6 @@ public class MyPortfolioPage {
 	}
 
 	public boolean getLabelsListAfterUpdate() {
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		storeTicker.clear();
 
 		for (WebElement ele : items) {
